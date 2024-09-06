@@ -1,0 +1,55 @@
+/* Sidebar container styles */
+.sidebarContainer {
+  height: 100vh; /* Full viewport height */
+  width: 20rem; /* Width equivalent to w-80 */
+  background-color: #f1f5f9; /* bg-slate-100 */
+  border-left: 4px solid #e2e8f0;
+  border-right: 4px solid #e2e8f0;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* shadow-2xl */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header styles */
+.sidebarHeader {
+  font-size: 1.875rem; /* text-3xl */
+  padding: 1rem 1.5rem; /* px-6 py-4 */
+}
+
+/* Brand text color */
+.brandHighlight {
+  color: #ef4444; /* text-red-500 */
+}
+
+/* Navigation styles */
+.navList {
+  margin-top: 1.25rem; /* mt-5 */
+  font-weight: bold; /* font-bold */
+  font-size: 1.25rem; /* text-xl */
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0.5rem; /* my-12 mx-2 */
+}
+
+/* Navigation item styles */
+.navItem {
+  margin-bottom: 0.5rem; /* mb-2 */
+  padding: 0.75rem 0; /* py-3 */
+  border-radius: 0.375rem; /* rounded-md */
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+}
+
+.navItem:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* hover:shadow */
+}
+
+.navItemActive {
+  background-color: #3b82f6; /* bg-blue-500 */
+}
+
+.navLink {
+  padding-left: 0.75rem; /* px-3 */
+  text-decoration: none;
+  color: inherit; /* Inherit color from parent */
+}

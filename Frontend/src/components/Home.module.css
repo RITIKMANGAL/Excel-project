@@ -1,0 +1,13 @@
+/* General Container Styles */
+.homeContainer {
+  display: flex; /* Centering content */
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0; /* bg-slate-200 */
+  width: 100%; /* Full width */
+  height: 100vh; /* Full viewport height */
+  font-size: 5rem; /* Text size (equivalent to text-8xl) */
+  font-weight: 800; /* Font weight equivalent to font-extrabold */
+  text-align: center;
+  color: #1f2937; /* Darker text color for contrast */
+}
